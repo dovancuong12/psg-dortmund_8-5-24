@@ -18,8 +18,8 @@ browser = webdriver.Chrome(service=service, options=chrome_options)
 time.sleep(random.randint(2,5))
 
 browser.get(facebook_url)
-phone= '0789138999'
-password = 'dovancuong392004'
+phone= 
+password = 
 
 phone_input = browser.find_element(By.ID, 'email')
 phone_input.send_keys(phone)
